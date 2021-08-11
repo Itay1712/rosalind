@@ -57,7 +57,7 @@ def extend_left(seq, rep_seq, rep_num):
 
 
 def maximal_repeats(seq, rep_seq='', rep_num=0):
-    """    Input: a DNA sequence as a string (seq) and a list (rep_seq) which needs to be ['', 0] for proper results
+    """    Input: a DNA sequence as a string (seq)
     Output: all of the repeating sequences in the given DNA that cannot be extended to the right with agreement between
     all of them (the repeating sequences)"""
 
