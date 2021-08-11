@@ -3,22 +3,9 @@ This is a solved problem from Rosalind website on bioinformatics problems
 
 Title: Identifying Maximal Repeats
 ID: MREP
-The problem:
-A maximal repeat of a string s is a repeated substring t of s having two occurrences t1 and t2 such that t1 and t2
-cannot be extended by one symbol in either direction in s and still agree.
-For example, "AG" is a maximal repeat in "TAGTTAGCGAGA" because even though the first two occurrences of "AG" can be
-extended left into "TAG", the first and third occurrences differ on both sides of the repeat; thus, we conclude that
-"AG" is a maximal repeat. Note that "TAG" is also a maximal repeat of "TAGTTAGCGAGA", since its only two occurrences do
-not still match if we extend them in either direction.
 
 Given: A DNA string s of length at most 1 kbp.
 Return: A list containing all maximal repeats of s having length at least 20.
-
-Sample Dataset:
-TAGAGATAGAATGGGTCCAGAGTTTTGTAATTTCCATGGGTCCAGAGTTTTGTAATTTATTATATAGAGATAGAATGGGTCCAGAGTTTTGTAATTTCCATGGGTCCAGAGTTTTGTAATTTAT
-Sample Output:
-TAGAGATAGAATGGGTCCAGAGTTTTGTAATTTCCATGGGTCCAGAGTTTTGTAATTTAT
-ATGGGTCCAGAGTTTTGTAATTT
 '''
 
 
